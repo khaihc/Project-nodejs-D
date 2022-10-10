@@ -1,0 +1,34 @@
+Xây dựng Rest Api với NodeJS (JavaScript), Express và PostgreSQL
+https://www.youtube.com/watch?v=DihOP19LQdg&t=1747s&ab_channel=BeaufortTek
+
+/////////////*************************/////////////
+\conninfo
+
+students=# CREATE TABLE students (
+students=# ID SERIAL PRIMARY KEY,
+students=# name VARCHAR(255),
+students=# email VARCHAR(255),
+students=# age INT,
+students=# dob DATE);
+
+students=# INSERT INTO students (name, email, age, dob)
+students-# VALUES ('Joe', 'joe@gmail.com', 48, '1973-04-04'), ('Anna', 'anna@gmail.com', 23, '2000-01-01');
+
+
+
+req.body: addStudent, updateStudent
+req.params: getStudentById, removeStudent, update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
